@@ -79,7 +79,7 @@ function getDicValue(
       const res = val[key as keyof typeof val]
 
       // pass all truthy values or (empty) strings
-      return res || (typeof res === "string" ? res : {})
+      return res || (typeof res === 'string' ? res : {})
     }, dic)
 
   if (
